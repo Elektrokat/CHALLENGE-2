@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.code-main{
+    background-color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.code-image{
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1{
+    font-weight: 700;
+    padding: 15px 10px;
+    font-size: 14px;
+    color: hsl(218, 44%, 22%);
+}
+
+.first{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 11px;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+}
+
+.attribution a{
+    color: maroon;
+    text-decoration: none; 
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+}
+
+
+                    /* mobile view */
+
+@media screen and (max-width: 375px) {
+    
+    .code-main{
+        background-color: hsl(0, 0%, 100%);
+        width: 300px;
+        height: 485px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        padding: 15px 10px;
+        text-align: center;
+    }
+    
+    .code-image{
+        width: 275px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+    h1{
+        font-weight: 700;
+        padding: 15px 10px;
+        font-size: 20px;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    .first{
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+        font-size: 16px;
+    }
+    
+    .attribution{
+        font-size: 15px; 
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+    }
+    
+    .attribution a{
+        color: maroon;
+        text-decoration: none; 
+    }
+    
+    .attribution a:hover{
+        text-decoration: underline;
+    }
+    
+}
+
+                    /* desktop view */
+
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+
+    .code-main{
+    background-color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.code-image{
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1{
+    font-weight: 700;
+    padding: 15px 10px;
+    font-size: 14px;
+    color: hsl(218, 44%, 22%);
+}
+
+.first{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 11px;
+}
+
+.attribution{
+    font-size: 15px; 
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+}
+
+.attribution a{
+    color: maroon;
+    text-decoration: none; 
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+}
+}
