@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
-    font-size: 0.93em;
+    font-size: 15px;
 }
 
 body{
@@ -13,7 +13,7 @@ body{
 
 .code-main{
     background-color: hsl(0, 0%, 100%);
-    max-width: 13.5em;
+    max-width: 13.3em;
     height: auto;
     position: absolute;
     top: 50%;
@@ -122,7 +122,7 @@ h1{
 
 .code-main{
     background-color: hsl(0, 0%, 100%);
-    max-width: 13.5em;
+    max-width: 13.3em;
     height: auto;
     position: absolute;
     top: 50%;
